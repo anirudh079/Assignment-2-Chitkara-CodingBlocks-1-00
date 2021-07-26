@@ -1,0 +1,40 @@
+div{
+    border: 2px solid black;
+    background-color:grey;
+    font-size: 20px;
+    border-radius: 60px;
+    padding-left: 18px;
+    position: sticky;
+    top:30px;
+}
+body{
+    background-color:rgb(235, 214, 176);
+}
+li::before
+{
+    content:"\1F4F1";
+}
+ul{
+list-style-type: none;
+}
+#a1{
+    text-align: center;
+    font-size:40px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:black;
+    content:"\01F4D6";
+    border: 3px solid black;
+    border-radius:90px;
+    width: 50%;
+    position: relative;
+    left: 350px;
+    background-color:grey;
+}
+#a1::after{
+    content:"\260E";
+}
+li{
+    border-bottom: 1px solid grey;
+    font-family: cursive;
+    font-size:18px;
+}
